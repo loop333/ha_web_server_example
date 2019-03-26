@@ -1,18 +1,11 @@
-#import asyncio
-#import logging
-
-#import urllib.request
-#import urllib.parse
-#import xml.etree.ElementTree as ET
-#import re
-
 from aiohttp import web
+
+import logging
 #import voluptuous as vol
 
 from homeassistant.components.http import HomeAssistantView
-#import homeassistant.core as ha
 
-#_LOGGER = logging.getLogger(__name__)
+_LOGGER = logging.getLogger(__name__)
 
 DOMAIN = 'my_api'
 DEPENDENCIES = ['http']

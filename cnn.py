@@ -1,13 +1,8 @@
-#import asyncio
 import logging
 
 import urllib.request
-#import urllib.parse
 import xml.etree.ElementTree as ET
 import re
-
-#from aiohttp import web
-#import voluptuous as vol
 
 from . import HTMLView
 import homeassistant.core as ha
