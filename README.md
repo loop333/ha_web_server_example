@@ -2,7 +2,7 @@
 
 install:  
 ```sh
-cd ~/.homeassistant
+cd ~/.homeassistant/custom_components
 git clone https://github.com/loop333/ha_web_server_example my_api
 ```
 configuration.yaml:  
