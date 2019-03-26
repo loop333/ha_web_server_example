@@ -12,4 +12,6 @@ my_api:
 Check result:  
 ```
 http://<host>:8123/my_api/tvpassport/cnn/70
+http://<host>:8123/my_api/news/cnn/cnn_latest.rss
+http://<host>:8123/my_api/youtube/PLHFlHpPjgk72jb60xIb7Jrx4sG06os6bx
 ```
