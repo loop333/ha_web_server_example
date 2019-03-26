@@ -1,7 +1,12 @@
 ### Home Assistant Custom Web Server Or API Example
 
-configuration.yaml:  
+install:  
+```sh
+cd ~/.homeassistant
+git clone https://github.com/loop333/ha_web_server_example my_api
 ```
+configuration.yaml:  
+```yaml
 my_api:
 ```
 Check result:  
