@@ -17,8 +17,6 @@ class tvpassport(HTMLView):
 
     @ha.callback
     def get(self, request, path):
-        """Retrieve if API is running."""
-
         data = {'timezone': 'Asia/Yekaterinburg'}
         data = urllib.parse.urlencode(data).encode('utf-8')
         req = urllib.request.Request('https://www.tvpassport.com/my-passport/dashboard/save_timezone', data=data)

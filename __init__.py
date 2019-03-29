@@ -25,9 +25,11 @@ def setup(hass, config):
     from .youtube import youtube
     from .tvpassport import tvpassport
     from .cnn import cnn
+    from .echo import echo
 
+    hass.http.register_view(youtube)
     hass.http.register_view(tvpassport)
     hass.http.register_view(cnn)
-    hass.http.register_view(youtube)
+    hass.http.register_view(echo)
 
     return True
