@@ -24,7 +24,7 @@ PLAYLIST: /my_api/youtube?p=<id>&f=18&s=1&n=10
 VIDEO: /my_api/youtube?v=<id>&f=18
 
 where:
-f - format id
-s - playlist start position
-n - playlist items count from start position
+f - format id, default 18
+s - playlist start position, default 1
+n - playlist items count from start position, default 10
 ```
