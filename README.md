@@ -14,5 +14,17 @@ Check result:
 http://<host>:8123/my_api/tvpassport/cnn/70
 http://<host>:8123/my_api/news/cnn/cnn_latest.rss
 http://<host>:8123/my_api/news/echo
-http://<host>:8123/my_api/youtube/PLHFlHpPjgk72jb60xIb7Jrx4sG06os6bx
+http://<host>:8123/my_api/youtube?p=PLHFlHpPjgk72jb60xIb7Jrx4sG06os6bx&f=18&s=1&n=10
+```
+Youtube url format:  
+```
+USER: /my_api/youtube?u=<id>&f=18&s=1&n=10
+CHANNEL: /my_api/youtube?c=<id>&f=18&s=1&n=10
+PLAYLIST: /my_api/youtube?p=<id>&f=18&s=1&n=10
+VIDEO: /my_api/youtube?v=<id>&f=18
+
+where:
+f - format id
+s - playlist start position
+n - playlist items count from start position
 ```
