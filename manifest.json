@@ -1,0 +1,8 @@
+{
+  "domain": "my_api",
+  "name": "my_api",
+  "documentation": "https://github.com/loop333/ha_web_server_example",
+  "requirements": [],
+  "dependencies": [],
+  "codeowners": []
+}
